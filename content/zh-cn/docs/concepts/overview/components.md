@@ -53,7 +53,7 @@ The control plane's components make global decisions about the cluster (for exam
 
 控制平面组件会为集群做出全局决策，比如资源的调度。
 以及检测和响应集群事件，例如当不满足部署的 `replicas` 字段时，
-要启动新的 {{< glossary_tooltip text="pod" term_id="pod">}}）。
+要启动新的 {{< glossary_tooltip text="pod" term_id="pod">}}。
 
 <!--
 Control plane components can be run on any machine in the cluster. However,
